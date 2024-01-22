@@ -1,6 +1,8 @@
 /*Fonts*/
 .body {
     font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: white;
 
 }
 .studio {
@@ -44,14 +46,19 @@ line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
 }
-.button {
-    color: white;
+.hero-button {
+background-color: #4D5AE5;
+color: white;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
 text-align: left;
-
+cursor: pointer;
+}
+.hero-button:hover
+.hero-button:focus {
+    background-color: #404BBF;
 }
 .text-hero {
     color: #FFFFFF;
@@ -67,7 +74,10 @@ text-align: left;
 }
 .header-menu-link {
     color: #2E2F42;
-    ;
+}
+.header-menu-link:hover
+.header-menu-link:focus {
+    background-color: #404BBF;
 }
 .adress-text {
 font-size: 16px;
