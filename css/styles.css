@@ -1,28 +1,144 @@
+/*Fonts*/
 .body {
-    font-family: ;
-    color: ;
-    background-color: ;
+    font-family: "Roboto", sans-serif;
+
 }
+.studio {
+    color:  #4D5AE5;
+
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #2E2F42;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #F4F4FD;
+}
+
 ul {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
 
-/* hero */
+/* Hero */
 .hero {
     background-color: #2E2F42;
 }
+.text-hero {
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.button {
+    color: white;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
 
+}
 .text-hero {
     color: #FFFFFF;
 }
 
+/*Header*/
+.header-menu-list {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.header-menu-link {
+    color: #2E2F42;
+    ;
+}
+.adress-text {
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #434455;
+
+}
+
+/*section1*/
+.section-one-subtitle {
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.section-one-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+/*Team*/
+.team {
+    background-color: #F4F4FD;
+}
+.team-item {
+    background-color: #FFFFFF;
+}
+.team-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.team-item {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+
+}
 .button {
     background-color: #4D5AE5;
 }
+
+/*Portfolio*/
+ .portfolio-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+ }
+ .porfolio-subtitle {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
+ }
+
 /* footer */
 .footer {
     background-color: #2E2F42;
