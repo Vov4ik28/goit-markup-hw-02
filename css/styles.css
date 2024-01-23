@@ -84,7 +84,7 @@ text-align: left;
 .header-menu-link:focus {
     color: #404BBF;
 }
-.adress {
+.adress-title {
     font-style: normal
 }
 .adress-text {
@@ -133,9 +133,10 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 .team-item {
+    color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 
 }
