@@ -38,8 +38,39 @@ ul {
 a {
     text-decoration: none;
 }
+/*Header*/
+.header-menu-list {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+    .header-menu-link {
+        color: #2E2F42;
+    }
+    .header-menu-link:hover ,
+    .header-menu-link:focus {
+        color: #404BBF;
+    }
+    .adress-title {
+        font-style: normal;
+    }
+    .adress-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+    }
+    .adress-text:hover ,
+    .adress-text:focus {
+        color: #404BBF;
+    }
 
-/* Hero */
+/* Hero section 1 */
 .hero {
     background-color: #2E2F42;
 }
@@ -69,38 +100,8 @@ cursor: pointer;
     color: #FFFFFF;
 }
 
-/*Header*/
-.header-menu-list {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: left;
-}
-.header-menu-link {
-    color: #2E2F42;
-}
-.header-menu-link:hover ,
-.header-menu-link:focus {
-    color: #404BBF;
-}
-.adress-title {
-    font-style: normal
-}
-.adress-text {
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #434455;
-}
-.adress-text:hover ,
-.adress-text:focus {
-    color: #404BBF;
-}
-/*section1*/
+
+/*about section 2*/
 .section-one-title {
     line-height: 1.2;
     color: #2E2F42;
@@ -109,7 +110,7 @@ color: #434455;
 font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.07;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: left;
 }
@@ -121,7 +122,7 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 
-/*Team*/
+/*Team section 3*/
 .team {
     background-color: #F4F4FD;
 }
@@ -148,7 +149,7 @@ letter-spacing: 0.02em;
     background-color: #4D5AE5;
 }
 
-/*Portfolio*/
+/*Portfolio section 4*/
  .portfolio-title {
 font-size: 36px;
 font-weight: 700;
