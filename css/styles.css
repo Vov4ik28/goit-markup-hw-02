@@ -83,6 +83,9 @@ text-align: left;
 .header-menu-link:focus {
     color: #404BBF;
 }
+.adress {
+    font-style: normal
+}
 .adress-text {
 font-size: 16px;
 font-style: normal;
@@ -97,6 +100,9 @@ color: #434455;
     color: #404BBF;
 }
 /*section1*/
+.section-one-title {
+    line-height: 1.07
+}
 .section-one-subtitle {
 font-family: Roboto;
 font-size: 20px;
