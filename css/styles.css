@@ -56,7 +56,7 @@ letter-spacing: 0.04em;
 text-align: left;
 cursor: pointer;
 }
-.hero-button:hover
+.hero-button:hover ,
 .hero-button:focus {
     background-color: #404BBF;
 }
@@ -75,9 +75,9 @@ text-align: left;
 .header-menu-link {
     color: #2E2F42;
 }
-.header-menu-link:hover
+.header-menu-link:hover ,
 .header-menu-link:focus {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 .adress-text {
 font-size: 16px;
@@ -87,9 +87,11 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #434455;
-
 }
-
+.adress-text:hover ,
+.adress-text:focus {
+    color: #404BBF;
+}
 /*section1*/
 .section-one-subtitle {
 font-family: Roboto;
