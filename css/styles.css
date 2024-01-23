@@ -101,6 +101,10 @@ color: #434455;
     color: #404BBF;
 }
 /*section1*/
+.section-one-title {
+    line-height: 1.2;
+    color: #2E2F42;
+}
 .section-one-subtitle {
 font-family: Roboto;
 font-size: 20px;
